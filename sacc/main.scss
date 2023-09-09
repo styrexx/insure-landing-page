@@ -1,5 +1,30 @@
+.sp-head::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 130px;
+	height: 1px;
+	background-color: gray;
+	left: 50%;
+	transform: translateX(-50%);
+}
 @media (min-width:991px){
 	.lending-page{
 		height: 550px;
 	}
+	.sp-head::before{
+		left: 0;
+		transform: translateX(0);
+	}
+}
+@media (min-width:1199px){
+	.pt-10{
+		padding-top: 10rem;
+	}
+}
+.w-15{
+	width: 15%;
+}
+.mx-w{
+	max-width: 500px;
 }
