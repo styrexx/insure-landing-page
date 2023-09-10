@@ -1,3 +1,27 @@
+
+body{
+	font-family: 'Karla', sans-serif;
+}
+
+ul,li {
+	list-style: none;
+}
+
+.font-serif{
+	font-family: 'DM Serif Display', serif;
+	letter-spacing: 2.4px;
+}
+
+.img-intro-left{
+	position: absolute;
+	top:50%;
+	left: 0;
+}
+.img-intro-right{
+	position: absolute;
+	top: 0;
+	right:0;
+}
 .sp-head::before{
 	content: '';
 	position: absolute;
@@ -28,3 +52,8 @@
 .mx-w{
 	max-width: 500px;
 }
+
+$dark :hsl(256, 26%, 20%);
+$primary : hsl(270, 9%, 17%);
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

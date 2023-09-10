@@ -9,6 +9,25 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <!-- Google-Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/51538ec9c6.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Frontend Mentor | Insure landing page</title>
     <link
       rel="stylesheet"
@@ -19,7 +38,7 @@
   <body>
     <nav class="navbar navbar-expand-lg py-3">
       <div class="container">
-        <a class="navbar-brand" href="#">INSURE</a>
+        <a class="font-serif navbar-brand fs-2" href="#">INSURE</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,23 +49,22 @@
           aria-label="Toggle navigation"
         >
           <i class="fa-solid fa-bars"></i>
-          <!-- <i class="fa-solid fa-xmark"></i> -->
         </button>
         <div class="collapse navbar-collapse text-center m-3 m-lg-0" id="main">
           <ul class="navbar-nav ms-auto p-4 p-lg-0">
             <li class="nav-item">
               <a class="nav-link me-lg-4 position-relative" href="#home">
-                How we work
+                HOW WE WORK
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link me-lg-4 position-relative" href="#blog">
-                Blog
+                BLOG
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link me-lg-4 position-relative" href="#qa">
-                Account
+                ACCOUNT
               </a>
             </li>
             <li class="nav-item">
@@ -54,7 +72,7 @@
                 class="btn btn-outline-primary rounded-0 px-4 me-lg-4 position-relative"
                 href="#register"
               >
-                View Plans
+                VIEW PLANS
               </a>
             </li>
           </ul>
@@ -62,24 +80,31 @@
       </div>
     </nav>
 
-    <!-- lending Page -->
+    <!-- lending page -->
     <section class="lending-page bg-dark text-light py-5 position-relative">
+      <img
+        class="img-intro-right"
+        src="./images/bg-pattern-intro-right-desktop.svg"
+        alt="bg-pattern-intro-left-desktop"
+      />
       <div class="container py-4">
         <div
           class="row justify-content-between flex-column-reverse flex-lg-row align-items-center align-items-lg-start"
         >
           <div class="content p-3 col-lg-6 text-center text-lg-start">
-            <h1 class="sp-head display-3 pt-4 position-relative fw-bold">
-              Humanizing your insurance.
+            <h1
+              class="sp-head display-3 pt-4 position-relative fw-bold font-serif"
+            >
+              Humanizing Your Insurance.
             </h1>
             <p class="lead">
-              Get your life insurance coverage easier and faster. We blend our
+              Get your life insurance coverage easier and faster. we blend our
               expertise and technology to help you find the plan that’s right
-              for you. Ensure you and your loved ones are protected.
+              for you. ensure you and your loved ones are protected.
             </p>
             <div>
               <a href="" class="btn btn-outline-light rounded-0 px-4">
-                View Plans
+                VIEW PLANS
               </a>
             </div>
           </div>
@@ -92,13 +117,18 @@
           </div>
         </div>
       </div>
+      <img
+        class="img-intro-left"
+        src="./images/bg-pattern-intro-left-desktop.svg"
+        alt="bg-pattern-intro-right-desktop"
+      />
     </section>
 
-    <!-- why Ass -->
+    <!-- why ass -->
     <section class="pt-10">
       <div class="container py-5 text-center text-lg-start">
         <h1 class="sp-head display-3 pt-4 position-relative fw-bold">
-          We're different
+          We're Different
         </h1>
         <div class="row">
           <div class="col-lg-4">
@@ -113,7 +143,7 @@
                 <h3 class="card-title">Snappy Process</h3>
                 <p class="card-text text-black-50 fs-6 pt-2 lh-lg">
                   Our application process can be completed in minutes, not
-                  hours. Don’t get stuck filling in tedious forms.
+                  hours. don’t get stuck filling in tedious forms.
                 </p>
               </div>
             </div>
@@ -130,7 +160,7 @@
               <div class="card-body pt-3">
                 <h3 class="card-title">Affordable Prices</h3>
                 <p class="card-text text-black-50 fs-6 pt-2 lh-lg">
-                  We don’t want you worrying about high monthly costs. Our
+                  We don’t want you worrying about high monthly costs. our
                   prices may be low, but we still offer the best coverage
                   possible.
                 </p>
@@ -149,7 +179,7 @@
                 <h3 class="card-title">People First</h3>
                 <p class="card-text text-black-50 fs-6 pt-2 lh-lg">
                   Our plans aren’t full of conditions and clauses to prevent
-                  payouts. We make sure you’re covered when you need it.
+                  payouts. we make sure you’re covered when you need it.
                 </p>
               </div>
             </div>
@@ -158,40 +188,109 @@
       </div>
     </section>
 
-    <!-- How we work -->
-    <!-- Blog -->
-    <!-- Account -->
-    <!-- View plans -->
-    <!-- View plans -->
-    <!-- We’re different -->
-    <!-- Snappy Process -->
-    <!-- -->
-    <!--  -->
-    <!-- Affordable Prices -->
-    <!-- -->
-    <!-- . -->
-    <!-- People First -->
-    <!--  -->
-    <!-- Find out more about how we work -->
-    <!-- How we work -->
-    <!-- Our company -->
-    <!-- How we work -->
-    <!-- Why Insure? -->
-    <!-- View plans -->
-    <!-- Reviews -->
-    <!-- Help me -->
-    <!-- FAQ -->
-    <!-- Terms of use -->
-    <!-- Privacy policy -->
-    <!-- Cookies -->
-    <!-- Contact -->
-    <!-- Sales -->
-    <!-- Support -->
-    <!-- Live chat -->
-    <!-- Others -->
-    <!-- Careers -->
-    <!-- Press -->
-    <!-- Licenses -->
+    <section class="py-4 more-info">
+      <div
+        class="container d-flex justify-content-between align-items-center bg-dark text-light p-5"
+      >
+        <h3 class="display-4 fw-bold w-50 font-serif">
+          Find Out More About How We Work
+        </h3>
+        <a class="btn btn-outline-light rounded-0" href="#">HOW WE WORK</a>
+      </div>
+    </section>
+
+    <section class="footer pt-5 pb-2">
+      <div class="container">
+        <div
+          class="footer-header d-flex justify-content-between align-items-center"
+        >
+          <div class="footer-logo fs-2 fw-bold font-serif">INSURE</div>
+          <div class="footer-social d-flex">
+            <a href="#">
+              <i class="fa-brands fa-2xl me-3 fa-square-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-2xl me-3 fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-2xl me-3 fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-2xl me-3 fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+        <hr class="text-black-50 mb-4 mt-2" />
+        <div class="footer-bottom row justify-content-center">
+          <div class="col-lg-3">
+            <h6 class="text-black-50 fs-5">OUR COMPANY</h6>
+            <ul class="p-0 mt-4">
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">HOW WE WORK</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">WHY INSURE?</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">VIEW PLANS</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">REVIEWS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="text-black-50 fs-5">HELP ME</h6>
+            <ul class="p-0 mt-4">
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">FAQ</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#"
+                  >TERMS OF USE</a
+                >
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#"
+                  >PRIVACY POLICY</a
+                >
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">COOKIES</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="text-black-50 fs-5">CONTACT</h6>
+            <ul class="p-0 mt-4">
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">SALES</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">SUPPORT</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">LIVE Chat</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="text-black-50 fs-5">OTHER</h6>
+            <ul class="p-0 mt-4">
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">CAREERS</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">PRESS</a>
+              </li>
+              <li class="fw-bold">
+                <a class="btn btn-link text-black ps-0" href="#">LICENSES</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
