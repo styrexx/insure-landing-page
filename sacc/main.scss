@@ -12,16 +12,50 @@ ul,li {
 	letter-spacing: 2.4px;
 }
 
-.img-intro-left{
+.img-desk-intro-left{
 	position: absolute;
 	top:50%;
 	left: 0;
 }
-.img-intro-right{
+.img-desk-intro-right{
 	position: absolute;
 	top: 0;
 	right:0;
 }
+.img-mob-intro-left{
+	display: none;
+	position: absolute;
+	top:60%;
+	left: 0;
+}
+.img-how-we-desk{
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.img-how-we-mob{
+	display: none;
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.img-mob-intro-right{
+	display: none;
+	position: absolute;
+	top: 90%;
+	right:0;
+}
+@media (max-width:661px){
+	.img-mob-intro-right,
+	.img-mob-intro-left{
+		display: initial;
+	}
+	.img-desk-intro-right,
+	.img-desk-intro-left{
+		display: none;
+	}
+}
+
 .sp-head::before{
 	content: '';
 	position: absolute;
