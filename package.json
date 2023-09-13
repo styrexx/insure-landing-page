@@ -7,7 +7,7 @@
     "doc": "doc"
   },
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "comp": "sass -s compressed -w ./sacc/main.scss ./css/style.css"
