@@ -6,6 +6,9 @@
   "directories": {
     "doc": "doc"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "comp": "sass -s compressed -w ./sacc/main.scss ./css/style.css"
   },
